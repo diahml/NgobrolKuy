@@ -155,6 +155,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="handleRegister"
             android:text="REGISTER"
             android:fontFamily="@font/redhatdisplay_regular"
             android:textStyle="bold"
@@ -170,6 +171,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="handleSudah"
         android:text="Sudah punya akun?"
         android:fontFamily="@font/redhatdisplay_regular"
         android:textStyle="bold"

@@ -3,6 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Responsi/app/src/main/res/drawable/circle.xml" value="0.1455" />
+        <entry key="..\:/Responsi/app/src/main/res/layout/activity_confirm.xml" value="0.1" />
+        <entry key="..\:/Responsi/app/src/main/res/layout/activity_ganti_pw.xml" value="0.1" />
+        <entry key="..\:/Responsi/app/src/main/res/layout/activity_home_chat.xml" value="0.1" />
+        <entry key="..\:/Responsi/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
+        <entry key="..\:/Responsi/app/src/main/res/layout/activity_pcactivity.xml" value="0.1796875" />
+        <entry key="..\:/Responsi/app/src/main/res/layout/activity_profile_pic.xml" value="0.1796875" />
+        <entry key="..\:/Responsi/app/src/main/res/layout/activity_register.xml" value="0.1796875" />
+        <entry key="..\:/Responsi/app/src/main/res/layout/activity_setting.xml" value="0.1" />
+        <entry key="..\:/Responsi/app/src/main/res/layout/activity_splash.xml" value="0.1796875" />
         <entry key="..\:/Users/Komp/AndroidStudioProjects/NgobrolKuy/app/src/main/res/drawable/circle.xml" value="0.2995" />
         <entry key="..\:/Users/Komp/AndroidStudioProjects/NgobrolKuy/app/src/main/res/drawable/gradient_drawable.xml" value="0.268" />
         <entry key="..\:/Users/Komp/AndroidStudioProjects/NgobrolKuy/app/src/main/res/drawable/ic_baseline_edit_64.xml" value="0.2995" />

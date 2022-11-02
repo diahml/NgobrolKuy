@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_drawable"
+    tools:context=".SettingActivity">
+
+    <ImageView
+        android:id="@+id/kembali"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/back"
+        android:onClick="handleBack"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/cek"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <TextView
+        android:id="@+id/cek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="16pt"
+        android:fontFamily="@font/redhatdisplay_regular"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="32dp"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imvCircularWithStroke1"
+        android:layout_width="109dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="106dp"
+        android:layout_marginEnd="300dp"
+        android:padding="5dp"
+        android:src="@drawable/man"
+        app:layout_constraintTop_toBottomOf="@id/kembali"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"
+        app:shapeAppearanceOverlay="@style/Circular"
+        app:strokeColor="#00BCD4"
+        app:strokeWidth="5dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <TextView
+        android:id="@+id/juned"
+        android:layout_width="274dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:fontFamily="@font/redhatdisplay_regular"
+        android:text="Juned"
+        app:layout_constraintTop_toBottomOf="@id/cek"
+        app:layout_constraintLeft_toRightOf="@id/imvCircularWithStroke1"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:textSize="12pt"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+
+    <TextView
+        android:id="@+id/jamet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jamet@mhs.unsoed.ac.id"
+        android:textSize="10pt"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="@font/redhatdisplay_regular"
+        android:textColor="@color/white"
+        android:layout_gravity="center_vertical"
+        app:layout_constraintTop_toBottomOf="@+id/imvCircularWithStroke1"/>
+
+    <TextView
+        android:id="@+id/inbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Passwordjamet123"
+        android:textSize="10pt"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="@font/redhatdisplay_regular"
+        android:textColor="@color/white"
+        android:layout_gravity="center_vertical"
+        app:layout_constraintTop_toBottomOf="@+id/jamet"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="32dp"
+        android:backgroundTint="@color/pink"
+        android:onClick="handleGanti"
+        app:layout_constraintTop_toBottomOf="@id/inbox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ganti Password"
+            android:fontFamily="@font/redhatdisplay_regular"
+            android:textStyle="bold"
+            android:textSize="12pt"
+            android:textColor="@color/white"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

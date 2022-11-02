@@ -136,6 +136,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="handleLogin"
             android:text="LOGIN"
             android:fontFamily="@font/redhatdisplay_regular"
             android:textStyle="bold"
@@ -151,6 +152,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="handleRegis"
         android:text="Belum punya akun?"
         android:fontFamily="@font/redhatdisplay_regular"
         android:textStyle="bold"
